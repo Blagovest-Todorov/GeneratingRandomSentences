@@ -7,7 +7,6 @@ namespace Test
     {
         static void Main(string[] args)
         {
-
             string[] phrases = new string[]
             {     "Excellent product.",
                   "Such a great product.",
@@ -24,7 +23,7 @@ namespace Test
                    "Makes miracles. I am happy of the results!",
                    "I cannot believe but now I feel awesome.",
                     "Try it yourself, I am very satisfied.",
-                    "I feel great!"   // creaste string array of events
+                    "I feel great!"   // create string array of events
             };
 
             string[] authors = new string[]
@@ -74,7 +73,6 @@ namespace Test
                 int index3 = rnd.Next(0, cities.Length);
                 cities[i] = cities[index3];
                 //cities[index3] = curCity;
-
 
                 Console.WriteLine($"{phrases[i]} {events[i]} {authors[i]} - {cities[i]}.");
             }
